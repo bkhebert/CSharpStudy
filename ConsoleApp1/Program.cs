@@ -7,10 +7,13 @@ namespace Giraffe
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("There once was a man named George");
-      Console.WriteLine("He was 70 yrs old");
-      Console.WriteLine("He really liked the name George");
-      Console.WriteLine("But didn't like being 70");
+
+        string name = "George";
+        int age = 70; 
+      Console.WriteLine("There once was a man named " + name);
+      Console.WriteLine("He was " + age + " yrs old");
+      Console.WriteLine("He really liked the name " + name);
+      Console.WriteLine("But didn't like being " + age);
       
 
       Console.ReadLine();
