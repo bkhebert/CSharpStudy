@@ -32,6 +32,9 @@ namespace Giraffe
       Console.WriteLine("double " + middleAccurate);
       Console.WriteLine("float ends with F " + leastAccurate);
       Console.WriteLine("character " + character);
+      Console.WriteLine("ToUpper: " + word.ToUpper() + "\n" + "ToLower: " + word.ToLower() + "\n" + "Contains: " + word.Contains('x')  );
+      Console.WriteLine("word[0]: " + word[0]);
+      Console.WriteLine("word.IndexOf(\"t\") " + word.IndexOf("t"));
       
       Console.ReadLine();
     }
