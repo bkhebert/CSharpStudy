@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\code\\New folder\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "Z:\\code\\CSharpStudy\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "Z:\\code\\New folder\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "Z:\\code\\CSharpStudy\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\code\\New folder\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "Z:\\code\\CSharpStudy\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "Z:\\code\\New folder\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "Z:\\code\\CSharpStudy\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\thech\\.nuget\\packages\\",
-        "outputPath": "Z:\\code\\New folder\\ConsoleApp1\\obj\\",
+        "outputPath": "Z:\\code\\CSharpStudy\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\thech\\AppData\\Roaming\\NuGet\\NuGet.Config"

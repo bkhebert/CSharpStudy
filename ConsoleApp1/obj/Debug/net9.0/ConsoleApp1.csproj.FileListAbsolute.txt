@@ -12,3 +12,18 @@ Z:\code\New folder\ConsoleApp1\obj\Debug\net9.0\refint\ConsoleApp1.dll
 Z:\code\New folder\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.pdb
 Z:\code\New folder\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.genruntimeconfig.cache
 Z:\code\New folder\ConsoleApp1\obj\Debug\net9.0\ref\ConsoleApp1.dll
+Z:\code\CSharpStudy\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.exe
+Z:\code\CSharpStudy\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.deps.json
+Z:\code\CSharpStudy\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.runtimeconfig.json
+Z:\code\CSharpStudy\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.dll
+Z:\code\CSharpStudy\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.pdb
+Z:\code\CSharpStudy\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+Z:\code\CSharpStudy\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.AssemblyInfoInputs.cache
+Z:\code\CSharpStudy\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.AssemblyInfo.cs
+Z:\code\CSharpStudy\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+Z:\code\CSharpStudy\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.sourcelink.json
+Z:\code\CSharpStudy\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.dll
+Z:\code\CSharpStudy\ConsoleApp1\obj\Debug\net9.0\refint\ConsoleApp1.dll
+Z:\code\CSharpStudy\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.pdb
+Z:\code\CSharpStudy\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.genruntimeconfig.cache
+Z:\code\CSharpStudy\ConsoleApp1\obj\Debug\net9.0\ref\ConsoleApp1.dll
