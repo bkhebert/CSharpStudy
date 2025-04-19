@@ -115,6 +115,13 @@ namespace Giraffe
 
     Console.WriteLine( luckyNumbers[4]);
     Console.ReadLine();
+    luckyNumbers[1] = 3999;
+    Console.WriteLine(luckyNumbers[1]);
+    Console.ReadLine();
+    string[] friends = new string[5];
+    friends[0] = "Ben";
+    friends[1] = "Mike";
+    friends[2] = "Brandon";
 
 
 
