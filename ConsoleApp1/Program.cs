@@ -8,6 +8,8 @@ namespace Giraffe
     static void Main(string[] args)
     {
 
+      // CONSOLE.WRITELINE
+
       //   string name = "George";
       //   int age = 70; 
       // Console.WriteLine("There once was a man named " + name);
@@ -15,6 +17,8 @@ namespace Giraffe
       // name = "Mike";
       // Console.WriteLine("He really liked the name " + name);
       // Console.WriteLine("But didn't like being " + age);
+
+      // SIMPLE DATATYPES
 
       // string word =  "a string";
       // char character = 'e';
@@ -31,17 +35,25 @@ namespace Giraffe
       // Console.WriteLine("decimal + ends with M " + mostAccurate);
       // Console.WriteLine("double " + middleAccurate);
       // Console.WriteLine("float ends with F " + leastAccurate);
+
+      // SOME METHODS
+      
       // Console.WriteLine("character " + character);
       // Console.WriteLine("ToUpper: " + word.ToUpper() + "\n" + "ToLower: " + word.ToLower() + "\n" + "Contains: " + word.Contains('x')  );
       // Console.WriteLine("word[0]: " + word[0]);
       // Console.WriteLine("word.IndexOf(\"t\") " + word.IndexOf("t"));
-      Console.Write("Enter your name: ");
-      string newName = Console.ReadLine();
-      Console.WriteLine("Hello " + newName);
-      Console.Write("Enter your age: ");
-      string newAge = Console.ReadLine();
-       Console.Write("ur age is " + newAge);
-      Console.ReadLine();
+      
+      // INPUT & OUTPUT
+      
+      // Console.Write("Enter your name: ");
+      // string newName = Console.ReadLine();
+      // Console.WriteLine("Hello " + newName);
+      // Console.Write("Enter your age: ");
+      // string newAge = Console.ReadLine();
+      //  Console.Write("ur age is " + newAge);
+      // Console.ReadLine();
+
+
     }
   }
 }
