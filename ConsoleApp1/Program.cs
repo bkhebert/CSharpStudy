@@ -37,7 +37,7 @@ namespace Giraffe
       // Console.WriteLine("float ends with F " + leastAccurate);
 
       // SOME METHODS
-      
+
       // Console.WriteLine("character " + character);
       // Console.WriteLine("ToUpper: " + word.ToUpper() + "\n" + "ToLower: " + word.ToLower() + "\n" + "Contains: " + word.Contains('x')  );
       // Console.WriteLine("word[0]: " + word[0]);
@@ -53,6 +53,11 @@ namespace Giraffe
       //  Console.Write("ur age is " + newAge);
       // Console.ReadLine();
 
+      int num = Convert.ToInt32("45");
+
+      Console.WriteLine(num + 6);
+
+      Console.ReadLine();
 
     }
   }
