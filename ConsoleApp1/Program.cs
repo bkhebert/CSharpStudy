@@ -7,7 +7,7 @@ namespace Giraffe
   {
     static void Main(string[] args)
     {
-
+//--------------------------------------
       // CONSOLE.WRITELINE
 
       //   string name = "George";
@@ -18,6 +18,8 @@ namespace Giraffe
       // Console.WriteLine("He really liked the name " + name);
       // Console.WriteLine("But didn't like being " + age);
 
+
+//--------------------------------------
       // SIMPLE DATATYPES
 
       // string word =  "a string";
@@ -36,6 +38,8 @@ namespace Giraffe
       // Console.WriteLine("double " + middleAccurate);
       // Console.WriteLine("float ends with F " + leastAccurate);
 
+
+//--------------------------------------
       // SOME METHODS
 
       // Console.WriteLine("character " + character);
@@ -43,6 +47,8 @@ namespace Giraffe
       // Console.WriteLine("word[0]: " + word[0]);
       // Console.WriteLine("word.IndexOf(\"t\") " + word.IndexOf("t"));
       
+
+//--------------------------------------
       // INPUT & OUTPUT
       
       // Console.Write("Enter your name: ");
@@ -77,23 +83,42 @@ namespace Giraffe
 
       // Console.ReadLine();
 
+
+//--------------------------------------
       // MAD LIBS GAME
-      string color, pluralNoun, celebrity; // a way to declare multiple variables
+      // string color, pluralNoun, celebrity; // a way to declare multiple variables
 
-      Console.Write("Enter a color: ");
-      color = Console.ReadLine();
-      Console.Write("Enter a plural noun");
-      pluralNoun = Console.ReadLine();
-      Console.Write("Enter a celebrity");
-      celebrity = Console.ReadLine();
+      // Console.Write("Enter a color: ");
+      // color = Console.ReadLine();
+
+      // Console.Write("Enter a plural noun");
+      // pluralNoun = Console.ReadLine();
+
+      // Console.Write("Enter a celebrity");
+      // celebrity = Console.ReadLine();
 
 
-      Console.WriteLine("Roses r " + color);
-      Console.WriteLine(pluralNoun + " are blue");
-      Console.WriteLine("i love " + celebrity);
+      // Console.WriteLine("Roses r " + color);
+      // Console.WriteLine(pluralNoun + " are blue");
+      // Console.WriteLine("i love " + celebrity);
     
     
-      Console.ReadLine();
+      // Console.ReadLine();
+
+
+//--------------------------------------
+      // COMPLEX DATA TYPES
+
+      // ARRAYS
+
+    int[] luckyNumbers = { 2, 4, 6, 8, 10, 12}; // array
+
+    Console.WriteLine( luckyNumbers[4]);
+    Console.ReadLine();
+
+
+
     }
+
   }
 }
