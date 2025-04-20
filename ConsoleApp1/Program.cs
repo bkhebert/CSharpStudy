@@ -141,7 +141,7 @@ namespace Giraffe
     // IfStatements(false);
     // Console.WriteLine(GetMaxOf3(3, 4, 5));
     // Console.WriteLine(GetMax(34, 66));
-    ComplexCalculator();
+    // ComplexCalculator();
     }
     // Notice we are outside of "Main"
     //   void means the method returns nothing
@@ -220,6 +220,10 @@ namespace Giraffe
     }
   }
 
+    static string GetDay(int dayNum){
+      // this method will take a number and convert it to a day of the week
+      
+    }
   }
 
 
