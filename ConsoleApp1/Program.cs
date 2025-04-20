@@ -142,6 +142,7 @@ namespace Giraffe
     // Console.WriteLine(GetMaxOf3(3, 4, 5));
     // Console.WriteLine(GetMax(34, 66));
     // ComplexCalculator();
+    Console.WriteLine(GetDay(4));
     }
     // Notice we are outside of "Main"
     //   void means the method returns nothing
@@ -222,7 +223,36 @@ namespace Giraffe
 
     static string GetDay(int dayNum){
       // this method will take a number and convert it to a day of the week
-      
+     string dayName;
+
+     switch(dayNum)
+     {
+      case 0:
+        dayName = "Sunday";
+        break;
+      case 1:
+        dayName = "Monday";
+        break;
+      case 2:
+        dayName = "Monday";
+        break;
+      case 3:
+        dayName = "Monday";
+        break;
+      case 4:
+        dayName = "Monday";
+        break;
+      case 5:
+        dayName = "Monday";
+        break;
+      case 6:
+        dayName = "Monday";
+        break;
+     default:
+        dayName = "Invalid day number entered";
+        break;
+     }
+     return dayName;
     }
   }
 
