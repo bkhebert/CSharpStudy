@@ -157,7 +157,7 @@ namespace Giraffe
     static void IfStatements(bool isMale) {
       bool isTall = true;
 
-      if(isMale && isTall) {
+      if(isMale || isTall) {
         Console.WriteLine("they are male");
 
       } else {
