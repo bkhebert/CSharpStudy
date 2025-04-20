@@ -135,8 +135,10 @@ namespace Giraffe
     // Console.WriteLine(CubeMethod(3));
     // Console.WriteLine(CubeMethod(2));
     // Console.ReadLine();
-    IfStatements(true);
-    IfStatements(false);
+    // IfStatements(true);
+    // IfStatements(false);
+
+    Console.WriteLine(GetMax(34, 66));
     }
     // Notice we are outside of "Main"
     //   void means the method returns nothing
@@ -171,6 +173,17 @@ namespace Giraffe
         Console.WriteLine("they are not male AND not tall");
       }
 
+    }
+
+
+    static int GetMax(int num1, int num2){
+      int result;
+      if(num1 > num2){
+        result = num1;
+      } else {
+        result = num2;
+      }
+      return result;
     }
   }
 }
