@@ -158,10 +158,10 @@ namespace Giraffe
       bool isTall = true;
 
       if(isMale || isTall) {
-        Console.WriteLine("they are male");
+        Console.WriteLine("they are male or they are tall");
 
       } else {
-        Console.WriteLine("they are not male");
+        Console.WriteLine("they are not male AND not tall");
       }
 
     }
