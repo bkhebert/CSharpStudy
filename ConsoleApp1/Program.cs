@@ -139,8 +139,9 @@ namespace Giraffe
     // Console.ReadLine();
     // IfStatements(true);
     // IfStatements(false);
-    Console.WriteLine(GetMaxOf3(3, 4, 5));
-    Console.WriteLine(GetMax(34, 66));
+    // Console.WriteLine(GetMaxOf3(3, 4, 5));
+    // Console.WriteLine(GetMax(34, 66));
+    ComplexCalculator();
     }
     // Notice we are outside of "Main"
     //   void means the method returns nothing
@@ -198,7 +199,30 @@ namespace Giraffe
     }
     return result;
   }
+  
+  static void ComplexCalculator(){
+    Console.Write("Enter A number: ");
+    double num1 = Convert.ToDouble(Console.ReadLine());
+    Console.Write("Enter an Operator: ");
+    string op = Console.ReadLine();
+
+    Console.Write("Enter A number again: ");
+    double num2 = Convert.ToDouble(Console.ReadLine());
+
+    if(op == "+"){
+      Console.Write(num1 + num2);
+    } else if(op == "-"){
+      Console.Write(num1 - num2);
+    }else if(op == "/"){
+      Console.Write(num1 / num2);
+    }else if(op == "*"){
+      Console.Write(num1 * num2);
+    }
   }
+
+  }
+
+
 }
 
 
