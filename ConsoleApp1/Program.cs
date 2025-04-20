@@ -111,20 +111,31 @@ namespace Giraffe
 
       // ARRAYS
 
-    int[] luckyNumbers = { 2, 4, 6, 8, 10, 12}; // array
+    // int[] luckyNumbers = { 2, 4, 6, 8, 10, 12}; // array
 
-    Console.WriteLine( luckyNumbers[4]);
-    Console.ReadLine();
-    luckyNumbers[1] = 3999;
-    Console.WriteLine(luckyNumbers[1]);
-    Console.ReadLine();
-    string[] friends = new string[5];
-    friends[0] = "Ben";
-    friends[1] = "Mike";
-    friends[2] = "Brandon";
+    // Console.WriteLine( luckyNumbers[4]);
+    // Console.ReadLine();
+    // luckyNumbers[1] = 3999;
+    // Console.WriteLine(luckyNumbers[1]);
+    // Console.ReadLine();
+    // string[] friends = new string[5]; // determines length of the array
+    // friends[0] = "Ben"; // assigning strings to different indexes
+    // friends[1] = "Mike";
+    // friends[2] = "Brandon";
 
 
 
+    //_-----------------------------
+    // Creating new methods 
+    SayHi("Barry"); // We call the method from inside of the Main Method
+    }
+    // Notice we are outside of "Main"
+    //   void means the method returns nothing
+    // static *return types* *method name*(*parameters*) { your code}
+    static void SayHi(string name)
+    {
+      Console.WriteLine("Hello User");
+      Console.WriteLine("Your name is " + name);
     }
 
   }
