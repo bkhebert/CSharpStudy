@@ -127,15 +127,18 @@ namespace Giraffe
 
     //_-----------------------------
     // Creating new methods 
-    SayHi("Barry"); // We call the method from inside of the Main Method
+    SayHi("Barry", 33); // We call the method from inside of the Main Method
+    SayHi("Mike", 28);
+    SayHi("Ben", 27);
     }
     // Notice we are outside of "Main"
     //   void means the method returns nothing
     // static *return types* *method name*(*parameters*) { your code}
-    static void SayHi(string name)
+    static void SayHi(string name, int age)
     {
       Console.WriteLine("Hello User");
       Console.WriteLine("Your name is " + name);
+      Console.WriteLine(name + "'s age is " + age );
     }
 
   }
