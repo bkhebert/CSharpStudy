@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 // Console.WriteLine("Hello, World!");
 
+using System.Diagnostics.CodeAnalysis;
+
 namespace Giraffe
 {
   class Program
@@ -137,7 +139,7 @@ namespace Giraffe
     // Console.ReadLine();
     // IfStatements(true);
     // IfStatements(false);
-
+    Console.WriteLine(GetMaxOf3(3, 4, 5));
     Console.WriteLine(GetMax(34, 66));
     }
     // Notice we are outside of "Main"
@@ -176,7 +178,7 @@ namespace Giraffe
     }
 
 
-    static int GetMax(int num1, int num2){
+    static int GetMax(int num1, int num2 ){
       int result;
       if(num1 > num2){
         result = num1;
@@ -185,5 +187,39 @@ namespace Giraffe
       }
       return result;
     }
+  static int GetMaxOf3(int num1, int num2, int num3){
+    int result;
+    if(num1 >= num2 && num1 >= num3){
+      result = num1;
+    } else if(num2 >= num1 && num2 >= num3){
+    result = num2;
+    } else {
+      result = num3;
+    }
+    return result;
+  }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
