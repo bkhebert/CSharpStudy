@@ -147,7 +147,8 @@ namespace Giraffe
       Console.WriteLine("Your name is " + name);
       Console.WriteLine(name + "'s age is " + age );
     }
-
+    
+    // METHOD WITH RETURN VALUE (INT);
     static int CubeMethod(int number){
       int cubed = number * number * number;
      return cubed;
