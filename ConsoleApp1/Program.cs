@@ -128,15 +128,15 @@ namespace Giraffe
     //_-----------------------------
     // METHODS
     // Methods are called inside of the Main
-    SayHi("Barry", 33); // We call the method from inside of the Main Method
-    SayHi("Mike", 28);
-    SayHi("Ben", 27);
-    CubeMethod(3);
-    CubeMethod(2);
+    // SayHi("Barry", 33); // We call the method from inside of the Main Method
+    // SayHi("Mike", 28);
+    // SayHi("Ben", 27);
 
-    Console.WriteLine(CubeMethod(3));
-    Console.WriteLine(CubeMethod(2));
-    Console.ReadLine();
+    // Console.WriteLine(CubeMethod(3));
+    // Console.WriteLine(CubeMethod(2));
+    // Console.ReadLine();
+    IfStatements(true);
+    IfStatements(false);
     }
     // Notice we are outside of "Main"
     //   void means the method returns nothing
@@ -154,5 +154,16 @@ namespace Giraffe
      return cubed;
     }
 
+    static void IfStatements(bool isMale) {
+      bool isTall = true;
+
+      if(isMale && isTall) {
+        Console.WriteLine("they are male");
+
+      } else {
+        Console.WriteLine("they are not male");
+      }
+
+    }
   }
 }
