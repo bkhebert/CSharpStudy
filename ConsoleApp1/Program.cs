@@ -126,10 +126,17 @@ namespace Giraffe
 
 
     //_-----------------------------
-    // Creating new methods 
+    // METHODS
+    // Methods are called inside of the Main
     SayHi("Barry", 33); // We call the method from inside of the Main Method
     SayHi("Mike", 28);
     SayHi("Ben", 27);
+    CubeMethod(3);
+    CubeMethod(2);
+
+    Console.WriteLine(CubeMethod(3));
+    Console.WriteLine(CubeMethod(2));
+    Console.ReadLine();
     }
     // Notice we are outside of "Main"
     //   void means the method returns nothing
@@ -139,6 +146,11 @@ namespace Giraffe
       Console.WriteLine("Hello User");
       Console.WriteLine("Your name is " + name);
       Console.WriteLine(name + "'s age is " + age );
+    }
+
+    static int CubeMethod(int number){
+      int cubed = number * number * number;
+     return cubed;
     }
 
   }
