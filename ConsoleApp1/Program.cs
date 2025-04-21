@@ -145,7 +145,7 @@ namespace Giraffe
     // Console.WriteLine(GetDay(4));
     // WhileLoops();
     // ForLoops();
-      Console.WriteLine(Exponents(5, 2));
+      Console.WriteLine(Exponents(5, 1));
     }
     // Notice we are outside of "Main"
     //   void means the method returns nothing
@@ -270,14 +270,20 @@ namespace Giraffe
     }
 
     static void ForLoops(){
-      for(int i = 1; i < 3; i++){
-        Console.WriteLine(i);
+      int[] luckyNumbers = {2, 5, 6, 34, 420, 69 };
+      for(int i = 1; i < luckyNumbers.Length; i++){
+        Console.WriteLine(luckyNumbers[i]);
       }
     }
 
     static int Exponents(int firstNumber, int powNum){
     Console.WriteLine("exponent called");
-      int result = firstNumber ^powNum;
+      // int result = firstNumber ^powNum; // carrots do NOT do exponents. they do bitwise XOR
+      // return result;
+      int result = 1;
+      for(int i = 1; i <= powNum; i++){
+        result = result * firstNumber;
+      }
       return result;
     }
   }
