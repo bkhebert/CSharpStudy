@@ -281,16 +281,33 @@ namespace Giraffe
       // int result = firstNumber ^powNum; // carrots do NOT do exponents. they do bitwise XOR
       // return result;
       int result = 1;
-      for(int i = 1; i <= powNum; i++){
-        result = result * firstNumber;
+      for(int i = 1; i <= powNum; i++){ result = result * firstNumber;
       }
       return result;
     }
+
+    static void TwoDimensionalArray(){
+
+      // this [,] means an array of arrays
+      // [,] is 2 dimensional
+      // [,,] is 3 dimensional, and so on
+      // you can also name the amount in each dimension like this:
+      int [,] multiArray = new int[2, 3];
+
+      int [,] numberGrid = {
+        {1, 2},
+        {3, 4},
+        {5, 6},
+      };
+      Console.WriteLine(numberGrid[0, 0]);
+      // Notice it isnt [0][0] for the first element in the first array;
+      // it is actually {0, 0}
+      Console.ReadLine();
+    }
+
   }
 
 }
-
-
 
 
 
