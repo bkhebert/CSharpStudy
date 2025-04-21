@@ -143,7 +143,8 @@ namespace Giraffe
     // Console.WriteLine(GetMax(34, 66));
     // ComplexCalculator();
     // Console.WriteLine(GetDay(4));
-    WhileLoops();
+    // WhileLoops();
+    ForLoops();
     }
     // Notice we are outside of "Main"
     //   void means the method returns nothing
@@ -267,7 +268,11 @@ namespace Giraffe
       Console.ReadLine();
     }
 
-
+    static void ForLoops(){
+      for(int i = 1; i < 3; i++){
+        Console.WriteLine(i);
+      }
+    }
 
   }
 
