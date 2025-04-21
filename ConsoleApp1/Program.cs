@@ -143,6 +143,7 @@ namespace Giraffe
     // Console.WriteLine(GetMax(34, 66));
     // ComplexCalculator();
     // Console.WriteLine(GetDay(4));
+    WhileLoops();
     }
     // Notice we are outside of "Main"
     //   void means the method returns nothing
@@ -255,7 +256,16 @@ namespace Giraffe
      return dayName;
     }
 
+    static void WhileLoops(){
+      int index = 1;
 
+      while(index <= 5)
+      {
+        Console.WriteLine(index);
+        index++;
+      }
+      Console.ReadLine();
+    }
 
 
 
