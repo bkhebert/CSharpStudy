@@ -146,6 +146,7 @@ namespace Giraffe
     // WhileLoops();
     //  ForLoops();
     //   Console.WriteLine(Exponents(5, 1));
+    Exceptions();
     }
     // Notice we are outside of "Main"
     //   void means the method returns nothing
@@ -303,6 +304,31 @@ namespace Giraffe
       // Notice it isnt [0][0] for the first element in the first array;
       // it is actually {0, 0}
       Console.ReadLine();
+    }
+
+    static void Exceptions(){
+      try{
+
+      Console.Write("enter a num: ");
+      int num1 = Convert.ToInt32(Console.ReadLine());
+      Console.Write("enter a num: ");
+      int num2 = Convert.ToInt32(Console.ReadLine());
+      double result = num1 / num2;
+      Console.WriteLine(num1 / num2);
+      }
+      catch(DivideByZeroException e){
+      Console.WriteLine("Cannot divide by Zero");
+      Console.WriteLine(e.Message);
+      }
+      catch(FormatException e){
+      Console.WriteLine("Format Error, Numbers only");
+      Console.WriteLine(e.Message);
+      }
+      finally
+      {
+        Console.WriteLine("If everything goes right, or if everything goes wrong");
+        Console.WriteLine("Finally will always be there");
+      }
     }
 
   }
