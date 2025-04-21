@@ -144,7 +144,8 @@ namespace Giraffe
     // ComplexCalculator();
     // Console.WriteLine(GetDay(4));
     // WhileLoops();
-    ForLoops();
+    // ForLoops();
+      Console.WriteLine(Exponents(5, 2));
     }
     // Notice we are outside of "Main"
     //   void means the method returns nothing
@@ -274,6 +275,11 @@ namespace Giraffe
       }
     }
 
+    static int Exponents(int firstNumber, int powNum){
+    Console.WriteLine("exponent called");
+      int result = firstNumber ^powNum;
+      return result;
+    }
   }
 
 }
