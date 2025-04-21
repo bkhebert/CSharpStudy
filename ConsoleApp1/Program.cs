@@ -142,7 +142,7 @@ namespace Giraffe
     // Console.WriteLine(GetMaxOf3(3, 4, 5));
     // Console.WriteLine(GetMax(34, 66));
     // ComplexCalculator();
-    Console.WriteLine(GetDay(4));
+    // Console.WriteLine(GetDay(4));
     }
     // Notice we are outside of "Main"
     //   void means the method returns nothing
@@ -234,19 +234,19 @@ namespace Giraffe
         dayName = "Monday";
         break;
       case 2:
-        dayName = "Monday";
+        dayName = "Tuesday";
         break;
       case 3:
-        dayName = "Monday";
+        dayName = "Wednesday";
         break;
       case 4:
-        dayName = "Monday";
+        dayName = "Thursday";
         break;
       case 5:
-        dayName = "Monday";
+        dayName = "Friday";
         break;
       case 6:
-        dayName = "Monday";
+        dayName = "Saturday";
         break;
      default:
         dayName = "Invalid day number entered";
@@ -254,8 +254,12 @@ namespace Giraffe
      }
      return dayName;
     }
-  }
 
+
+
+
+
+  }
 
 }
 
