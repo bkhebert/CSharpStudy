@@ -144,8 +144,8 @@ namespace Giraffe
     // ComplexCalculator();
     // Console.WriteLine(GetDay(4));
     // WhileLoops();
-    // ForLoops();
-      Console.WriteLine(Exponents(5, 1));
+    //  ForLoops();
+    //   Console.WriteLine(Exponents(5, 1));
     }
     // Notice we are outside of "Main"
     //   void means the method returns nothing
