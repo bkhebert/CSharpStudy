@@ -146,7 +146,8 @@ namespace Giraffe
     // WhileLoops();
     //  ForLoops();
     //   Console.WriteLine(Exponents(5, 1));
-    Exceptions();
+    // Exceptions();
+      Console.WriteLine(XorSwap());
     }
     // Notice we are outside of "Main"
     //   void means the method returns nothing
@@ -329,8 +330,33 @@ namespace Giraffe
         Console.WriteLine("If everything goes right, or if everything goes wrong");
         Console.WriteLine("Finally will always be there");
       }
+
     }
 
+      static string XorSwap(){
+        Console.WriteLine("enter your first number: ");
+        int a = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("enter your second number: ");
+        int b = Convert.ToInt32(Console.ReadLine());
+        a = a ^ b; // a now holds a ^ b
+        b = a ^ b; // b is now a because (a ^ b) ^ b = a
+        a = a ^ b; // a is now b because (a ^ b) ^ a = b
+        return $"a = {a}, b = {b}";
+      }
+
+      static string XorSwapArray(int[] arr){
+
+        for (int i = 0; i < arr.Length / 2; i++)
+        {
+            int j = arr.Length - 1 - i;
+
+            // XOR swap without temp variable
+            arr[i] = arr[i] ^ arr[j];
+            arr[j] = arr[i] ^ arr[j];
+            arr[i] = arr[i] ^ arr[j];
+        }
+        return string.Join(", ", arr);
+      }
   }
 
 }
