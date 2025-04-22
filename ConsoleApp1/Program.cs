@@ -9,6 +9,12 @@ namespace Giraffe
   {
     static void Main(string[] args)
     {
+
+      // CLASSES ---------------------------------------
+      Book book1 = new Book(); // This is an instance of the book.
+      // The class is the definition of what a book is
+      // the line above us is creating a book object using the
+      // book class definition.
 //--------------------------------------
       // CONSOLE.WRITELINE
 
@@ -147,7 +153,7 @@ namespace Giraffe
     //  ForLoops();
     //   Console.WriteLine(Exponents(5, 1));
     // Exceptions();
-      Console.WriteLine(XorSwap());
+//      Console.WriteLine(XorSwap());
     }
     // Notice we are outside of "Main"
     //   void means the method returns nothing
