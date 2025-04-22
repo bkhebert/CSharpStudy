@@ -15,6 +15,22 @@ namespace Giraffe
       // The class is the definition of what a book is
       // the line above us is creating a book object using the
       // book class definition.
+      book1.title = "Harry Potter"; // as you can see we access the objects
+      //properties in the same manner as we did in javascript;
+      book1.author = "JK Rowling";
+      book1.pages = 400;
+      Console.WriteLine(book1.title);
+      Console.ReadLine();
+      Book book2 = new Book(); // This is an instance of the book.
+      // The class is the definition of what a book is
+      // the line above us is creating a book object using the
+      // book class definition.
+      book1.title = "Lord Of The Rings"; // as you can see we access the objects
+      //properties in the same manner as we did in javascript;
+      book1.author = "Tolkein";
+      book1.pages = 500;
+      Console.WriteLine(book1.title);
+      Console.ReadLine();
 //--------------------------------------
       // CONSOLE.WRITELINE
 
